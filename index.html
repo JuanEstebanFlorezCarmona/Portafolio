@@ -1,13 +1,133 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EN MANTENIMIENTO</title>
-</head>
+    <title>Portafolio Juan Esteban</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.3em;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .about, .skills, .projects, .contact {
+            background: white;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 40px;
+        }
+        h2 {
+            color: #007acc;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #007acc;
+            color: white;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .projects a {
+            display: block;
+            background: #007acc;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition: background 0.3s;
+        }
+        .projects a:hover {
+            background: #005b99;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background: #007acc;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #005b99;
+        }
+    </style>
+<style type="text/css" id="operaUserStyle"></style><style type="text/css"></style><style type="text/css"></style></head>
 <body>
-    <h1>EN MANTENIMIENTO</h1>
-    <img src="unnamed.jpg" alt="">
-   
-</body>
-</html>
+
+    <header>
+        <h1>Juan Esteban - Riwicoder</h1>
+        <p>Apasionado por la tecnología, la actuación y la programación</p>
+    </header>
+
+    <section class="about">
+        <h2>Sobre mí</h2>
+        <p>Soy Juan Esteban, un entusiasta de la tecnología con un profundo amor por la programación, el arte de la actuación y todo lo relacionado con la creatividad. Me encanta explorar nuevas herramientas digitales y expresarme tanto en el escenario como en el código. Busco oportunidades que me permitan unir lo técnico con lo artístico.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML &amp; CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>React</li>
+            <li>Actuación teatral</li>
+            <li>Comunicación</li>
+            <li>Edición de video</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Proyectos</h2>
+        <a href="http://127.0.0.1:5500/index.html" target="_blank">Proyecto 1: Login</a>
+        <a href="http://127.0.0.1:5500/index.html" target="_blank">Proyecto 2: Semantico</a>
+        <a href="http://127.0.0.1:5500/index.html" target="_blank">Proyecto 3: proyecto3</a>
+    </section>
+
+    <section class="contact">
+        <h2>Contáctame</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre" required="">
+            <input type="email" placeholder="Tu correo" required="">
+            <textarea rows="5" placeholder="Tu mensaje" required=""></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+</body></html>
